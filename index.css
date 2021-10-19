@@ -1,0 +1,113 @@
+
+body{
+    background-color: #000;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color:#1F1D1DCC;
+    opacity: 80%;
+    width: max-content;
+    text-align: center;
+    box-shadow: 5px;
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction:row;
+    margin-left: 1%;
+}
+
+.right-side{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.parameter{
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 35px;
+    color: #fff;
+    opacity: 50%;
+}
+.value{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+}
+.definition{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    opacity: 80%;
+}
+
+hr{
+    border: 1px solid rgba(229, 229, 229, 0.5);
+    width: 215px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.data-1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.data-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.data-3{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.graph{
+    background-color:#1F1D1DCC;
+    border-radius: 20px;
+    opacity: 80%;
+    width: max-content;
+    height: 600px;
+}
+#myChart{
+    margin-top: 10px;
+    width:max-content;
+    height: 600px;
+}
+.bottom{
+    margin-left: 32%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    position: relative;
+    bottom:50px;
+    margin-right: 70px;
+    font-family:  Raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size :16px;
+    line-height : 18.78px;
+    text-align:Center;
+    color:#fff;
+    opacity: 50%;
+    outline: none;
+    background-color: transparent;
+}

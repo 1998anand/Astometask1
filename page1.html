@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Hello, world!</title>
+
+
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="left-side col-4">
+                <div class="data-1">
+                    <h1 class="parameter">N</h1>
+                    <h1 id="no-of-points" class="value">2800</h1>
+                    <h3 class="definition">No of points received</h3>
+                </div>
+                <div class="data-2">
+                    <h1 class="parameter">I</h1>
+                    <h1 id="Ivalue" class="value">2300</h1>
+                    <h3 class="definition">No of points within the radius</h3>
+                </div>
+                <div class="data-3">
+                    <h1 class="parameter">I/N ratio</h1>
+                    <h1 id="IbyN" class="value">0.7857</h1>
+                    <h3 class="definition">No of points within the radius</h3>
+                    <hr>
+                    <h3 class="definition">No of points received</h3>
+                </div>
+            </div>
+            <div class="right-side col">
+                <div class="graph">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+            <div class="bottom">
+                <button onclick="handleClick('ratio')">Ratio</button>
+                <button onclick="handleClick('plot')">plot</button>
+                <button onclick="handleClick('data')">data</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
